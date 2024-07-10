@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #fff; 
+}
+
+nav ul li a:hover {
+    color: #333;
+    padding: 10px;
+    background-color: #fff;
+}
+
+section#visao-missao {
+    margin-top: 150px;
+}
+
+section#contato {
+    margin-bottom: 600px;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    color: #333;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para o formulário de contato */
+section#contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#contato form label {
+    margin: 5px 0;
+}
+
+section#contato form input,
+section#contato form select,
+section#contato form textarea {
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+section#contato form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+section#contato form button:hover {
+    background-color: #555;
+}
+
+
+/* Estilo para destacar a seção ativa */
+section.active {
+    background-color: #f0f0f0; /* Cor de fundo para destacar a seção ativa */
+    border-left: 5px solid #333; /* Borda para destacar a seção ativa */
+}
+
